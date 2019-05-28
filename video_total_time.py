@@ -17,6 +17,8 @@ def tranverse_video_file(video_path):
                 print('{0}-----{1}'.format(name,datetime.timedelta(seconds=clip.duration)))
                 # global times  #全局变量未进行赋值操作，这句可以省略
                 times.append(clip.duration)
+                clip.reader.close()
+                clip.audio.reader.close_proc()
 
              
 
