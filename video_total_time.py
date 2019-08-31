@@ -1,3 +1,6 @@
+#!/usr/bin/env Python
+# coding=utf-8
+
 import os
 import sys
 import datetime
@@ -18,9 +21,7 @@ def tranverse_video_file(video_path):
                 # global times  #全局变量未进行赋值操作，这句可以省略
                 times.append(clip.duration)
                 clip.reader.close()
-                clip.audio.reader.close_proc()
-
-             
+                clip.audio.reader.close_proc()           
 
 def print_total_time():
     # global times #全局变量未进行赋值操作，这句可以省略
