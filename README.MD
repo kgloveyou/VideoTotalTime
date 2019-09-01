@@ -5,7 +5,7 @@
 ### 执行命令如下：
 
 ```
-python video_total_time.py F:\download\2018.03《Python3全栈工程师》_技术能力内训
+python video_total_time.py 'F:\download\2018.03《Python3全栈工程师》_技术能力内训'
 ```
 
 如果报错：
