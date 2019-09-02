@@ -15,7 +15,7 @@ def tranverse_video_file(video_path):
         if os.path.isdir(sub_name):
             tranverse_video_file(sub_name)
         else:
-            if sub_name.endswith('.avi'):
+            if sub_name.endswith(('.mp4', '.mkv', '.avi', '.wmv', '.iso')):
                 clip = VideoFileClip(sub_name)
                 print('{0}-----{1}'.format(name,datetime.timedelta(seconds=clip.duration)))
                 # global times  #全局变量未进行赋值操作，这句可以省略

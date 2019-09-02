@@ -1,11 +1,11 @@
 ### 功能描述：
 
-    统计文件夹中视频文件的总时长(代码中只统计了avi格式，可以修改成其他格式后缀)。
+    统计文件夹中视频文件的总时长(目前只统计了avi、mp4、wmv、mkv、iso等5种常见格式，可以修改成其他格式后缀)。
 
 ### 执行命令如下：
 
 ```
-python video_total_time.py 'F:\download\2018.03《Python3全栈工程师》_技术能力内训'
+python video_total_time.py "F:\download\2018.03《Python3全栈工程师》_技术能力内训"
 ```
 
 如果报错：
